@@ -86,7 +86,7 @@ document.onmousedown=click;
                 <div class="masthead-heading text-uppercase" style="text-shadow: 1px 1px 10px #000;">Winter Sheriff!</div>
                 <a class="btn btn-danger btn-lg" href="https://docs.google.com/forms/d/1Te2b45wLm-uiC7Hb9zKnLOci6NXXCmngbnuS4y-gcmQ/edit">지원하러 가기</a>
 				<a class="btn btn-success btn-shadow btn-lg text-uppercase" href="https://www.google.com/">라이드어롱[미진행]</a>
-				<a class="btn btn-info btn-shadow btn-lg" style="border:green solid 2px" href="https://www.youtube.com/watch?v=nzJAOZ7T-LA">홍보영상</a>
+				<a class="btn btn-info btn-shadow btn-lg" data-bs-toggle="modal" href="#promotional">홍보영상</a>
             </div>
         </header>
         <!-- Services-->
@@ -738,6 +738,40 @@ document.onmousedown=click;
                                         <li>
                                             <strong>출동인원:</strong>
                                             리퍼 외 x명
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        닫기
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- 홍보영상 -->
+        <div class="portfolio-modal modal fade" id="promotional" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">윈터 보안국 홍보영상</h2>
+                                    <p class="item-intro text-muted">즐거운 감상 되세요!</p>
+                                    <iframe width="854" height="480" src="https://www.youtube.com/embed/-06TmevH6Lw?si=ICRMHO_K9uc_Cdey" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <p>윈터 보안국</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>편집자:</strong>
+                                            리퍼
+                                        </li>
+                                        <li>
+                                            <strong>참여인원:</strong>
+                                            보안국 전원
                                         </li>
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
